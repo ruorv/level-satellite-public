@@ -50,16 +50,16 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 
 <table>
 <tr>
-<td><img src="https://level-satellite.ru/static/screen_map.png" alt="Map with stations"/></td>
-<td><img src="https://level-satellite.ru/static/screen_scenes.png" alt="Scene matching"/></td>
+<td><img src="https://level-satellite.ru/static/screen_map.png" width="400" alt="Map with stations"/></td>
+<td><img src="https://level-satellite.ru/static/screen_scenes.png" width="400" alt="Scene matching"/></td>
 </tr>
 <tr>
-<td align="center"><em>~3000 hydrological stations across Russia</em></td>
+<td align="center"><em>2000+ hydrological stations across Russia</em></td>
 <td align="center"><em>Matched Landsat scene at water level 78 cm</em></td>
 </tr>
 <tr>
-<td><img src="https://level-satellite.ru/static/screen_analysis.png" alt="Data analysis"/></td>
-<td><img src="https://level-satellite.ru/static/screen_chart.png" alt="Time series"/></td>
+<td><img src="https://level-satellite.ru/static/screen_analysis.png" width="400" alt="Data analysis"/></td>
+<td><img src="https://level-satellite.ru/static/screen_chart.png" width="400" alt="Time series"/></td>
 </tr>
 <tr>
 <td align="center"><em>Station statistics and KPI</em></td>
