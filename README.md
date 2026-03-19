@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="frontend/static/logo.png" alt="Уровень-Спутник" width="80"/>
+<img src="https://level-satellite.ru/static/logo.png" alt="Уровень-Спутник" width="80"/>
 
 # Уровень-Спутник · Level-Sputnik
 
