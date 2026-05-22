@@ -41,6 +41,7 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 - River network total length, major dams count, irrigated area
 - Watershed polygon displayed as a toggleable map layer with opacity control
 - **Export**: download watershed polygon with full attribute table as GeoJSON
+- Delineation powered by [mghydro.com](https://mghydro.com) by [Matthew Heberger](https://github.com/mheberger/delineator) — open-source global watershed tool
 
 ### 📊 Data Analysis (Tab 3 — Анализ данных)
 - Time series chart of water level and discharge
@@ -85,7 +86,7 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 | Backend | Python · Flask · Gunicorn |
 | Database | PostgreSQL · PostGIS · 28M rows |
 | Satellite data | Microsoft Planetary Computer API |
-| Watershed data | mghydro.com · MERIT-Hydro 90 m |
+| Watershed data | [mghydro.com](https://github.com/mheberger/delineator) (M. Heberger) · MERIT-Hydro 90 m |
 | Frontend | Vanilla JS · Leaflet.js · Chart.js |
 | Infrastructure | Docker · nginx · Let's Encrypt |
 
