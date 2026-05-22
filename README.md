@@ -60,23 +60,23 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 
 <table>
 <tr>
-<td><img src="https://level-satellite.ru/static/screen_map.png" width="400" alt="Map with stations"/></td>
-<td><img src="https://level-satellite.ru/static/screen_summary.png" width="400" alt="Station summary"/></td>
+<td><img src="https://raw.githubusercontent.com/ruorv/level-satellite-public/main/screenshots/screen_map.png" width="400" alt="Map with stations"/></td>
+<td><img src="https://raw.githubusercontent.com/ruorv/level-satellite-public/main/screenshots/screen_summary.png" width="400" alt="Station summary"/></td>
 </tr>
 <tr>
 <td align="center"><em>2,657 hydrological stations across Russia</em></td>
 <td align="center"><em>Station card: period, levels, discharge, zero marks</em></td>
 </tr>
 <tr>
-<td><img src="https://level-satellite.ru/static/screen_watershed.png" width="400" alt="Watershed tab"/></td>
-<td><img src="https://level-satellite.ru/static/screen_analysis.png" width="400" alt="Data analysis"/></td>
+<td><img src="https://raw.githubusercontent.com/ruorv/level-satellite-public/main/screenshots/screen_watershed.png" width="400" alt="Watershed tab"/></td>
+<td><img src="https://raw.githubusercontent.com/ruorv/level-satellite-public/main/screenshots/screen_analysis.png" width="400" alt="Data analysis"/></td>
 </tr>
 <tr>
 <td align="center"><em>Watershed basin with land cover breakdown (MERIT-Hydro)</em></td>
 <td align="center"><em>Time series, monthly averages, extremes</em></td>
 </tr>
 <tr>
-<td colspan="2"><img src="https://level-satellite.ru/static/screen_scenes.png" width="400" alt="Scene browser"/></td>
+<td colspan="2"><img src="https://raw.githubusercontent.com/ruorv/level-satellite-public/main/screenshots/screen_scenes.png" width="400" alt="Scene browser"/></td>
 </tr>
 <tr>
 <td colspan="2" align="center"><em>Free scene browser — search by drawn area</em></td>
