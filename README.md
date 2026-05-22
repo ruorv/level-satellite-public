@@ -28,18 +28,27 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 ## Features
 
 ### 🛰 Scene Matching (Tab 1 — Подбор сцен)
-- Select any of **2,000+ gauging stations** on the interactive map
+- Select any of **2,657 gauging stations** on the interactive map
 - Set water level range, date range, months, cloud cover threshold
 - Get a list of matching Sentinel-2 / Landsat scenes with exact level values
 - Preview scenes directly on the map or download as **GeoTIFF**
 
-### 📊 Data Analysis (Tab 2 — Анализ данных)
+### 🌊 Watershed (Tab 2 — Водосбор)
+- Automatically delineated catchment polygon for **2,451 stations** using **MERIT-Hydro** (90 m global DEM)
+- Key basin characteristics per station: area, population (WorldPop 2020), precipitation (CHIRPS), evapotranspiration (MODIS), mean elevation
+- Land cover breakdown (ESA WorldCover 2020): forest, cropland, wetland, built-up, open water and more — shown as sorted progress bars
+- GRACE / GRACE-FO groundwater storage trend (cm/decade)
+- River network total length, major dams count, irrigated area
+- Watershed polygon displayed as a toggleable map layer with opacity control
+- **Export**: download watershed polygon with full attribute table as GeoJSON
+
+### 📊 Data Analysis (Tab 3 — Анализ данных)
 - Time series chart of water level and discharge
 - Monthly averages, min/max extremes
 - Ice-free period statistics
 - Export data as **CSV or XLSX**
 
-### 🗺 Scene Browser (Tab 3 — Снимки)
+### 🗺 Scene Browser (Tab 4 — Снимки)
 - Free search by drawn area on the map
 - Filter by date range, months, cloud cover
 - Independent of station selection
@@ -54,7 +63,7 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 <td><img src="https://level-satellite.ru/static/screen_scenes.png" width="400" alt="Scene matching"/></td>
 </tr>
 <tr>
-<td align="center"><em>2000+ hydrological stations across Russia</em></td>
+<td align="center"><em>2,657 hydrological stations across Russia</em></td>
 <td align="center"><em>Matched Landsat scene at water level 78 cm</em></td>
 </tr>
 <tr>
@@ -76,6 +85,7 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 | Backend | Python · Flask · Gunicorn |
 | Database | PostgreSQL · PostGIS · 28M rows |
 | Satellite data | Microsoft Planetary Computer API |
+| Watershed data | mghydro.com · MERIT-Hydro 90 m |
 | Frontend | Vanilla JS · Leaflet.js · Chart.js |
 | Infrastructure | Docker · nginx · Let's Encrypt |
 
@@ -83,10 +93,15 @@ Built on top of **28 million daily observations** from Russian hydrological stat
 
 ## Data Coverage
 
-- **Stations**: 2,000+ Russian hydrological gauging stations
+- **Stations**: 2,657 Russian hydrological gauging stations
+- **Watersheds**: 2,451 automatically delineated catchment basins (MERIT-Hydro 90 m)
 - **Observations**: Daily water level (L) and discharge (Q) measurements
 - **Period**: 2008–2023
 - **Satellite**: Sentinel-2 L2A, Landsat 8/9 SR via Microsoft Planetary Computer
+- **Land cover**: ESA WorldCover 2020 (10 m)
+- **Population**: WorldPop 2020
+- **Precipitation**: CHIRPS climatology
+- **Groundwater**: GRACE / GRACE-FO satellite gravimetry
 
 ---
 
@@ -100,7 +115,7 @@ Founder · Hydrologist<br/>
 <a href="mailto:golovlevpp@my.msu.ru">golovlevpp@my.msu.ru</a>
 </td>
 <td align="center">
-<b>Aleksandr Innokentev</b><br/>
+<b>Aleksandr Innokентьев</b><br/>
 Developer<br/>
 <a href="mailto:innokentevai@my.msu.ru">innokentevai@my.msu.ru</a>
 </td>
